@@ -1,0 +1,61 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  background: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 240px;
+  max-width: 600px;
+  margin: 0 auto;
+  -webkit-transition: background-color 1.2s ease;
+  transition: background-color 1.2s ease; }
+
+.container {
+  position: relative;
+  height: 200px; }
+
+.figures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  max-width: 600px; }
+
+.figure {
+  border: 1px solid black;
+  height: 170px;
+  width: 170px; }
+
+.rhombus {
+  height: 110px;
+  width: 110px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.circle {
+  border-radius: 100%; }
+
+.gradient {
+  background: -webkit-gradient(linear, left top, right bottom, from(#e70faa), to(#00c0fd));
+  background: linear-gradient(to bottom right, #e70faa, #00c0fd); }
+
+.color {
+  background-color: rgba(76, 180, 81, 0.507); }
+
+.foto {
+  content: url(/src/img/dog.jpg);
+  padding: 6px;
+  background-color: #ffca7a; }
+
+/*# sourceMappingURL=style.css.map */
